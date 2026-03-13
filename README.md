@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# market-pal
 
-# Run and deploy your AI Studio app
+> Your weekly meals, planned. Your grocery list, done.
 
-This contains everything you need to run your app locally.
+A Gemini-powered meal planner that generates a full week of recipes based on your preferences, dietary habits, and local supermarket — along with a ready-to-use shopping list.
 
-View your app in AI Studio: https://ai.studio/apps/8ff79035-3f3c-451c-88ec-4e7366bf41fb
+## Features
 
-## Run Locally
+- 🍽️ Personalized weekly meal plan with full recipes
+- 🛒 Grocery list tailored to your area and preferred supermarket
+- 📍 Location-aware suggestions
+- 🔥 Firebase backend (Firestore)
+- ⚡ Powered by Gemini API
 
-**Prerequisites:**  Node.js
+## Stack
 
+React · TypeScript · Vite · Firebase (Firestore) · Gemini API
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Run locally
+
+**Prerequisites:** Node.js, a Gemini API key, a Firebase project
+
+```bash
+npm install
+cp .env.local.example .env.local
+# Set GEMINI_API_KEY and Firebase config in .env.local
+npm run dev
+```
+
+> ⚠️ Never commit your API keys. Add `.env.local` to `.gitignore`.
+
+## Live demo
+
+[Open in AI Studio](https://ai.studio/apps/8ff79035-3f3c-451c-88ec-4e7366bf41fb)
