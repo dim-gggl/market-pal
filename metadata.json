@@ -1,0 +1,7 @@
+{
+  "name": "Market Pal",
+  "description": "Une application de planification de repas intelligente qui génère des menus hebdomadaires et des listes de courses adaptées à votre supermarché local en utilisant l'IA.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
