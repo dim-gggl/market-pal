@@ -31,4 +31,4 @@ npm run dev
 
 ## Live demo
 
-[Open in AI Studio](https://ai.studio/apps/8ff79035-3f3c-451c-88ec-4e7366bf41fb)
+[Open in AI Studio](https://ai.studio/apps/8ff79035-3f3c-451c-88ec-4e7366bf41fb?fullscreenApplet=true)
